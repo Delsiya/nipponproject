@@ -1,0 +1,90 @@
+
+.App {
+  text-align: center;
+  background-color: black;
+  color: white; 
+}
+
+.App-header {
+  background-image: url('https://m.media-amazon.com/images/S/aplus-media/vc/e7ecd769-cf73-40f9-83e0-75cf4a86f8bd.__CR0,0,970,300_PT0_SX970_V1___.jpg');
+  background-size: cover; 
+  background-position: center; 
+  padding: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.Header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Header-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.Header-nav li {
+  margin: 0 10px;
+}
+
+.Header-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.Graph-section .Graph {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.Graph-section .Bar {
+  width: 30px;
+}
+
+.Product-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Product-item {
+  width: 30%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+.Footer-social a {
+  margin: 0 10px;
+}
+/* src/App.css */
+.Lottie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Header-logo {
+  width: 50px; 
+  height: auto;
+  margin-right: 50px; 
+}
+
+.Header-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
